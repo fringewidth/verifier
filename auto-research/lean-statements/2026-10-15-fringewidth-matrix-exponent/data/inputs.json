@@ -28,5 +28,5 @@
   ],
   "selection_note": "No earlier track packages at the base; only proof PR 10 was open. Candidates were not tied; seed assigned the track.",
   "site_snapshot_note": "The single chat-knowledge.json request was cached at 2026-10-13 and truncated before matrix data. The matrix record was checked against data/matrix-multiplication.json at the pinned site commit.",
-  "github_access_note": "Direct git network access was unavailable. Relevant upstream files were materialized through the authenticated connector and checked against Git blob IDs; this local directory is a partial snapshot, not a full clone."
+  "github_access_note": "Initial source reads used the GitHub connector and were checked against blob IDs. After shell network access was enabled, validation and submission used a full clone at the pinned base commit."
 }

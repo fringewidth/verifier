@@ -87,10 +87,9 @@ receipt, whereas the older track README calls its evidence Claimed.
 The package uses **Lean Verified** for that record and does not downgrade it.
 This observation is tied to the source snapshot, not a promise of a live record.
 
-Direct git networking was unavailable. Relevant files were retrieved using
-the GitHub connector and checked against blob IDs; the local work area was
-a partial snapshot. The PR is based on the exact upstream commit using Git
-objects on the user's fork. Discord discussion could not be accessed.
+Initial source reads used the GitHub connector and were checked against blob
+IDs. Validation and submission use a full clone at the exact upstream base
+commit. Discord discussion could not be accessed.
 
 ## Scope and remaining work
 

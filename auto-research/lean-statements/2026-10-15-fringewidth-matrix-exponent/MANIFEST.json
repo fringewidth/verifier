@@ -1,12 +1,12 @@
 {
   "algorithm": "sha256",
   "sha256": {
-    "NOTICE.md": "34ba831bab2cec92f84e1f546374b4c645ecec9b07a759157a9e998c4d41af41",
-    "README.md": "dae3bb95a0422ecee066a4d424045a5b888eaebf4892d4346e18ef5e6bc23c97",
+    "NOTICE.md": "74a31d0e3aa71acc7395043907d52cd79804eb38e46216d981ee1e48a08a5c2b",
+    "README.md": "de2829be9affc838c95cd7731de96069202160a2fb5289a1b28139e63cb036c0",
     "RESULT.json": "63b0bb462644f5cf7d4df6db8210378f72950ce2229980b8a36658ff1a11d240",
-    "code/Checks.lean": "145cbede4c3599452c3af1ff7bb6bb10848ed3e52acdf62cfe56bd7a3623becc",
+    "code/Checks.lean": "41db64684768103584efaa82c541b1125314298a72b3dc2c91fa204c87fe0d35",
     "data/challenge-hashes.json": "74db5dcd1cfb6e6ed495c38aa57a3df4c1e399b4d00c99fdb0ece1e39ac87289",
-    "data/inputs.json": "14236a497bde1b393f4fbba7b116c98a148bfd341ff169c5a614d7ad4825bc51",
+    "data/inputs.json": "e1af4889cc9f1ef5f9a36157b4e9b725454c2af0d9724b7cecb4adb1ab714c70",
     "data/matrix-record.json": "cd6f013bfd80a8185dc2ea412e2ecebb8b4618f5f9807b6610d9ee43944f91d3",
     "data/tools.json": "8d472f89d0563e7f71194701bc337f08a52eda3ef7e03411ece2014bf5d32280",
     "verify.py": "1bb3f91e125cebcf3eb6534e51a32022827e2245988a0739904e61846f573310"

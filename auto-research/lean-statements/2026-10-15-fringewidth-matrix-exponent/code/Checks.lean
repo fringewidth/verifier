@@ -31,8 +31,8 @@ theorem scalar_correct : scalarAlgorithm.Correct := by
   ext i j
   fin_cases i
   fin_cases j
-  simp [MatrixAlgorithm.eval, scalarAlgorithm, Program.eval, Gate.eval,
-    matrixInputs, Matrix.mul_apply]
+  change A 0 0 * B 0 0 = (A * B) 0 0
+  simp [Matrix.mul_apply]
 
 theorem scalar_cost : scalarAlgorithm.cost = 1 := by rfl
 
