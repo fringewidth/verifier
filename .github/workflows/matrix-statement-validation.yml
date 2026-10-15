@@ -1,0 +1,18 @@
+name: Validate parameterized matrix statement
+on:
+  push:
+    branches:
+      - validation/matrix-exponent
+permissions:
+  contents: read
+jobs:
+  statement:
+    if: github.repository == 'fringewidth/verifier'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Check statement and permitted axioms
+        run: python3 auto-research/lean-statements/2026-10-15-fringewidth-matrix-exponent/verify.py --lean
